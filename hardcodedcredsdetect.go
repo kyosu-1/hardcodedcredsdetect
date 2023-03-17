@@ -18,7 +18,7 @@ var (
 )
 
 var Analyzer = &analysis.Analyzer{
-    Name: "hardcoded-credentials",
+    Name: "hardcodedcredsdetect",
     Doc:  "detects hardcoded credentials in code",
     Run:  run,
     Requires: []*analysis.Analyzer{
